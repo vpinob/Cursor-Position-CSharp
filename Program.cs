@@ -33,7 +33,7 @@ namespace App
                 ShowWindow(win, 0);
 
                 TimerCallback1 = new TimerCallback(Tick);
-                //Create a 100 mSec Timer tick
+                //Create a 100 ms Timer tick
                 Timer1 = new System.Threading.Timer(TimerCallback1, null, 0, 100);
                 //Forever loop
                 for (; ; );
